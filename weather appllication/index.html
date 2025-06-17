@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button><img src="images/search.png" alt="loading" ></button>
+        </div>
+        <div class="weather">
+          <img src="images/rain.png" alt="Rainy" class="weather-icon" > 
+          <h1 class="temp"> 25°C</h1>
+            <h2 class="city">Qaboola</h2>
+            <div class="detail-weather">
+                <div class="humidity col" >
+                    <img src="images/humidity.png" alt="Humidity">
+                    <div class="humidity-detail">
+
+                        <p id="humidity1">60%</p>
+                        <p>Humidity</p>
+                    </div>
+                    
+                </div>
+                <div class="wind col">
+                    <img src="images/wind.png" alt="Wind">
+                    <div class="wind-detail">
+                        <p id="wind1">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
